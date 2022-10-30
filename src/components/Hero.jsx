@@ -42,14 +42,14 @@ const Hero = () => {
                 cursor="pointer"
                 width="max-content"
               >
-                Hi, I’m Dwiki! 👋
+                Hi! 👋
               </Header>
             </MotionBox>
           </Box>
           <Box as="h2" fontSize="2xl" fontWeight="400" textAlign="left">
             My name is{' '}
             <Box as="strong" fontWeight="600">
-              Dwiki
+              Dwiki Krisna
             </Box>{' '}
             and I&apos;m a{' '}
             <Box as="span" whiteSpace="nowrap">
