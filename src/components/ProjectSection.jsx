@@ -9,6 +9,7 @@ import {
 } from '@chakra-ui/react';
 import React from 'react';
 import { FiArrowRight } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 import projectList from '../data/project-list';
 import ProjectCard from './ProjectCard';
 
@@ -21,6 +22,8 @@ const ProjectSection = () => {
             Recent Project
           </Heading>
           <Button
+            as={Link}
+            to="/project"
             variant="link"
             colorScheme="teal"
             color="#00A8CC"

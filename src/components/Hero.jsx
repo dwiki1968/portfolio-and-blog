@@ -17,7 +17,6 @@ const Hero = () => {
         <MotionFlex
           position="relative"
           mr={['auto', 'auto', 16]}
-          m={['auto', 'initial']}
           w={['90%', '85%', '80%']}
           maxW="800px"
           opacity="0"

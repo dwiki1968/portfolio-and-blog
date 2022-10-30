@@ -2,6 +2,7 @@ import { Button, Container, Heading, HStack } from '@chakra-ui/react';
 import React from 'react';
 import { FaArrowRight } from 'react-icons/fa';
 import { FiArrowRight } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 import BlogCard from './BlogCard';
 
 const articles = [
@@ -36,6 +37,8 @@ const BlogSection = () => {
             Recent Posts
           </Heading>
           <Button
+            as={Link}
+            to="/blog"
             variant="link"
             colorScheme="teal"
             color="#00A8CC"
